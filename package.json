@@ -12,6 +12,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.1",
+    "@angular/cdk": "^11.0.0",
     "@angular/common": "~11.0.1",
     "@angular/compiler": "~11.0.1",
     "@angular/core": "~11.0.1",
@@ -19,8 +20,16 @@
     "@angular/platform-browser": "~11.0.1",
     "@angular/platform-browser-dynamic": "~11.0.1",
     "@angular/router": "~11.0.1",
+    "chart.js": "2.9.3",
+    "classlist.js": "^1.1.20150312",
+    "font-awesome": "^4.7.0",
+    "primeflex": "2.0.0",
+    "primeicons": "^4.1.0",
+    "primeng": "^10.0.0",
+    "primeng-schematics": "^9.0.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "web-animations-js": "^2.3.2",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
