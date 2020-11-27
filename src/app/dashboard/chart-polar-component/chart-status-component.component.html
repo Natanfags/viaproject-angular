@@ -1,0 +1,10 @@
+<p-card [header]="'Status geral de serviços'" [subheader]="'Subheader here'">
+  <p-chart type="polarArea" [data]="data"></p-chart>
+  <p-footer>
+    <div class="btn-space">
+      <p-dropdown [options]="filters " [(ngModel)]="selectFilter" optionLabel="name"></p-dropdown>
+
+      <p-button > Filtrar</p-button>
+    </div>
+  </p-footer>
+</p-card>

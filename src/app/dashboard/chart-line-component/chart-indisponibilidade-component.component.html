@@ -1,0 +1,13 @@
+
+<div class="column">
+  <p-card [header]="'Status indisponibilidade serviços'" [subheader]="'Subheader here'">
+    <p-chart type="doughnut" [data]="data"></p-chart>
+    <p-footer>
+      <div class="btn-space">
+        <p-dropdown [options]="filters " [(ngModel)]="selectFilter" optionLabel="name"></p-dropdown>
+
+        <p-button > Filtrar</p-button>
+      </div>
+    </p-footer>
+  </p-card>
+</div>

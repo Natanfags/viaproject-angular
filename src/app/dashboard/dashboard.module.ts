@@ -7,20 +7,18 @@ import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {DashboardService} from './dashboard.service';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
-import {ChartLineComponentComponent} from './chart-line-component/chart-line-component.component';
-import {ChartBarComponentComponent} from './chart-bar-component/chart-bar-component.component';
 import {DropdownModule} from 'primeng/dropdown';
 import {FormsModule} from '@angular/forms';
-import {FilterComponentComponent} from '../filter-component/filter-component.component';
-import {ChartPolarComponentComponent} from './chart-polar-component/chart-polar-component.component';
 import {CalendarModule} from 'primeng/calendar';
+import {ChartIndisponibilidadeComponentComponent} from './chart-line-component/chart-indisponibilidade-component.component';
+import {ChartAllStatusComponentComponent} from './chart-bar-component/chart-all-status-component.component';
+import {ChartStatusComponentComponent} from './chart-polar-component/chart-status-component.component';
 
 @NgModule({
   declarations: [DashboardComponent,
-    ChartLineComponentComponent,
-    ChartBarComponentComponent,
-    FilterComponentComponent,
-    ChartPolarComponentComponent
+    ChartIndisponibilidadeComponentComponent,
+    ChartAllStatusComponentComponent,
+    ChartStatusComponentComponent
   ],
   exports: [DashboardComponent],
   imports: [
